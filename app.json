@@ -1,0 +1,30 @@
+﻿{
+  "name": "gret",
+  "description": "gret",
+  "keywords": [
+    "gret"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "7039ecde-001a-43d6-afd1-77c0613afb14",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/jdhycxjkytesxjrexhtewsxhj/heroku-v2ray",
+  "repository": "https://github.com/jdhycxjkytesxjrexhtewsxhj/heroku-v2ray",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
